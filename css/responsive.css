@@ -66,6 +66,7 @@
 @media screen and (max-width: 480px) {
     #features {
         margin: 50px 15px;
+        margin-top: 100px;
     }
     
     .feature-content {
@@ -116,6 +117,7 @@
 @media screen and (min-width: 481px) and (max-width: 767px) {
     #features {
         margin: 50px 30px;
+        margin-top: 100px;
     }
     
     .feature-content {
