@@ -85,34 +85,13 @@ nav {
     color: #000;
 }
 
-/*============= hero =============*/
-#hero {
-    margin: 100px 200px 0 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#nav-responsive-click {
+    display: none;
 }
 
-.hero-left h1 {
-    font-family: "Lato", sans-serif;
-    font-size: 60px;
-    font-weight: 900;
-    padding-bottom: 30px;
-    line-height: 1.5;
+.nav-responsive-btn {
+    display: none;
 }
-
-.hero-left p {
-    font-family: "Lato", sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    padding-bottom: 80px;
-    color: #798196;
-}
-
-.hero-right img {
-    width: 100%;
-}
-
 
 /*============= features =============*/
 #features {
@@ -128,21 +107,29 @@ nav {
 
 .feature-content h2 {
     font-family: "Lato", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 900;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     line-height: 1.5;
+}
+
+.feature-content h2 span {
+    display: block;
 }
 
 .feature-content p {
     font-family: "Lato", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     color: #798196;
 }
 
-.feature-img2 { 
+.feature-content p span {
+    display: block;
+}
+
+.feature-img { 
     width: 600px;
 }
 
@@ -167,11 +154,19 @@ nav {
     line-height: 1.5;
 }
 
+.service-top-tittle h2 span {
+    display: block;
+}
+
 .service-top-tittle p {
     font-family: "Lato", sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: #798196;
+}
+
+.service-top-tittle p span {
+    display: block;
 }
 
 .service-items {
@@ -183,6 +178,10 @@ nav {
 .single-service {
     width: 30%;
     margin-bottom: 100px;
+}
+
+.single-service:nth-child(4) h3 {
+    margin-top: -5px;
 }
 
 .single-service h3 {
@@ -218,6 +217,7 @@ nav {
 .pricing-cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .pricing-card {
@@ -423,10 +423,18 @@ nav {
     margin-bottom: 20px;
 }
 
+.register-left h2 span {
+    display: block;
+}
+
 .register-left p {
     font-family: "Lato", sans-serif;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.register-left p span {
+    display: block;
 }
 
 .register-right a {
